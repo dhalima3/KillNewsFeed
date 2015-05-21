@@ -16,13 +16,13 @@ function blockAndDisplay() {
      }
 
     feed.children().remove();
-    $('#pagelet_navigation').remove();
     $('.ticker_stream').remove();
     $('.ego_column').remove();
     $('#pagelet_games_rhc').remove();
     $('#pagelet_canvas_nav_content').remove();
+    $('#pagelet_navigation').remove();
+    $('#pagelet_composer').remove();
     $('.fbReminders').remove();
-    $('#u_0_1z').click();
 }
 
 window.setInterval(blockAndDisplay, 100);
