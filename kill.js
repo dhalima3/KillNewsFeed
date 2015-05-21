@@ -21,6 +21,7 @@ function blockAndDisplay() {
     $('#pagelet_games_rhc').remove();
     $('#pagelet_canvas_nav_content').remove();
     $('#pagelet_navigation').remove();
+    $('.fbChatSidebar').remove();
     $('.fbReminders').remove();
 }
 
