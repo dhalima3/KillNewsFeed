@@ -21,7 +21,8 @@ function blockAndDisplay() {
     $('.ego_column').remove();
     $('#pagelet_games_rhc').remove();
     $('#pagelet_canvas_nav_content').remove();
-    $('a:contains("See More")').click();
+    $('.fbReminders').remove();
+    $('#u_0_1z').click();
 }
 
 window.setInterval(blockAndDisplay, 100);
