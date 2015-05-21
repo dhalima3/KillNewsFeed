@@ -16,11 +16,12 @@ function blockAndDisplay() {
      }
 
     feed.children().remove();
+    $('#pagelet_navigation').remove();
     $('.ticker_stream').remove();
     $('.ego_column').remove();
     $('#pagelet_games_rhc').remove();
-    $('#pagelet_trending_tags_and_topics').remove();
     $('#pagelet_canvas_nav_content').remove();
+    $('a:contains("See More")').click();
 }
 
 window.setInterval(blockAndDisplay, 100);
